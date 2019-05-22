@@ -1,26 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vheader></vheader>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import vheader from './components/v-header/v-header.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    vheader
   }
 }
 </script>
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+#app {
+  .tab-wrapper {
+    position: fixed;
+    top: 136px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 </style>
