@@ -69,11 +69,11 @@
 
 <script>
 import { getGoods } from 'api'
-// import CartControl from 'components/cart-control/cart-control'
+import CartControl from 'components/cart-control/cart-control'
 import ShopCart from 'components/shop-cart/shop-cart'
 // import Food from 'components/food/food'
 // import SupportIco from 'components/support-ico/support-ico'
-// import Bubble from 'components/bubble/bubble'
+import Bubble from 'components/bubble/bubble'
 
 export default {
   name: 'goods',
@@ -182,9 +182,9 @@ export default {
     }
   },
   components: {
-    // Bubble,
+    Bubble,
     // SupportIco,
-    // CartControl,
+    CartControl,
     ShopCart
     // Food
   }

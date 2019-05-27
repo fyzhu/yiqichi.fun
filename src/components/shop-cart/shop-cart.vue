@@ -32,7 +32,7 @@
 </template>
 
 <script>
-// import Bubble from 'components/bubble/bubble'
+import Bubble from 'components/bubble/bubble'
 
 const BALL_LEN = 10
 const innerClsHook = 'inner-hook'
@@ -226,7 +226,7 @@ export default {
     }
   },
   components: {
-    // Bubble
+    Bubble
   }
 }
 </script>
