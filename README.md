@@ -1,5 +1,9 @@
 # yiqichi.fun
 
+慕课网74
+
+Vue.js2.5+cube-ui重构饿了么App（经典再升级）
+
 ## Project setup
 ```
 yarn install
